@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My ToDo v0.1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="index.js" type="module" defer ></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/logo.svg" alt="main logo">
+        </div>
+        <div class="header__creater">
+            <p class="header__creater-content">
+                Develop by TheGedzie
+            </p>
+        </div>
+    </header>
+    <main>
+        <section class="todo">
+            <div class="todo__create">
+                <h1 class="todo__main-title">CREATE NEW TODO</h1>
+                <input class="input" data-input type="text">
+                <button  class="todo__btn-create">
+                    <img data-btn  src="assets/buttonCreate.svg" alt="button create todo">
+                </button>
+            </div>
+            <div class="todo__input">
+                <div data-item-container class="container">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
